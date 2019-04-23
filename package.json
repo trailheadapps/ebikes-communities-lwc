@@ -1,5 +1,5 @@
 {
-    "name": "ebikes-lwc",
+    "name": "ebikes-communities-lwc",
     "private": true,
     "version": "1.0.0",
     "description": "EBikes Sample App - Lightning Web Components",
@@ -19,7 +19,7 @@
     "license": "CC0-1.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/trailheadapps/ebikes-lwc"
+        "url": "git+https://github.com/trailheadapps/ebikes-communities-lwc"
     },
     "engines": {
         "node": ">= 10.13.0",
