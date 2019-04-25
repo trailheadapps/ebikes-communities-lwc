@@ -35,8 +35,8 @@ sfdx force:auth:web:login -d -a myhuborg
 3. Clone the repository:
 
 ```
-git clone https://github.com/trailheadapps/ebikes-lwc
-cd ebikes-lwc
+git clone https://github.com/trailheadapps/ebikes-communities-lwc.git
+cd ebikes-communities-lwc
 ```
 
 4. Create a scratch org and provide it with an alias (**ebikes** in the command below):
