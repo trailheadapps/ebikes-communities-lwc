@@ -8,7 +8,7 @@ import App from './App';
 
 // Once DOM is loaded, insert the React App
 window.addEventListener('load', () => {
-	ReactDOM.render(<App />, document.getElementById('root'));	
-})
+    ReactDOM.render(<App />, document.getElementById('root'));
+});
 
 // registerServiceWorker();

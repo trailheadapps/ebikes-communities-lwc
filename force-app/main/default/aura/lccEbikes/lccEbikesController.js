@@ -1,19 +1,19 @@
 ({
-    handleMessage: function (component, event, helper) {
+    handleMessage: function(component, event, helper) {
         var message = event.getParams();
     },
 
-    handleError: function (component, event, helper) {
+    handleError: function(component, event, helper) {
         var error = event.getParams();
         console.log(error);
     },
-    
-    handleEvent: function (component, event) {
-        var bikePart = event.getParam("bikePart");
-        var color = event.getParam("color");
-        
+
+    handleEvent: function(component, event) {
+        var bikePart = event.getParam('bikePart');
+        var color = event.getParam('color');
+
         if (color) {
-        	var changeColorMsg = {
+            var changeColorMsg = {
                 name: 'change-color',
                 value: {
                     detail: {
@@ -21,16 +21,16 @@
                         color: color
                     }
                 }
-        	};   
-        	component.find("jsApp").message(changeColorMsg);
+            };
+            component.find('jsApp').message(changeColorMsg);
         }
         var moveCameraMsg = {
             name: 'move-camera',
             value: {
-                detail: bikePart,
+                detail: bikePart
             }
         };
-            
-        component.find("jsApp").message(moveCameraMsg);
-	}
-})
+
+        component.find('jsApp').message(moveCameraMsg);
+    }
+});
